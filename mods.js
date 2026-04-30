@@ -164,8 +164,11 @@ Promods background</p><p>Full credit to BenganJ (rest in peace) who's knowlege o
     category: "Fixes & RCs",
     author: "SaltySeeds06",
     images: ["images/eaa_rescaled/01.png", "images/eaa_rescaled/02.png"],
-    description: `<p>A detailed global background map replacement for Euro Truck Simulator 2.</p>
-               <p>Works with all map mods. Place high in your mod manager load order.</p>`,
+    description: `<p>This mod rescales and moves EAA to the right spot on the background 
+and fixes many issues that EAA had when being combined with other maps -
+ Please note that several parts of Brazil have not been moved due to the
+ amount of time it would take and how difficult it would be to move, the
+ rest may be added in future versions</p><p><br></p><p>Load order </p><p>EAA Rescaled</p><p>EAA Map Semeuropa</p><p>EAA Base</p><p>EAA Base Share</p><p>If you're using this is in a map combo put EAA at the very bottom of your load order</p><p><br></p><p>Please report any bugs as you find them</p>`,
     etsCompat: "1.58",
     downloads: [
       {
