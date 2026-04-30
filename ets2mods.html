@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>ETS2 Mods</title>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><img src="images/salty.png" id="web_logo" alt="Webpage logo" width="64" height="64"></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="ets2mods.html">ETS2 Mods</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div id="filter-bar"></div>
+ 
+        <div class="flexbox" id="mod-grid"></div>
+ 
+        <script src="mods.js"></script>
+        <script>
+            const grid = document.getElementById("mod-grid");
+            const filterBar = document.getElementById("filter-bar");
+
+            // Build category list from mods
+            const categories = ["All", ...new Set(MODS.map(m => m.category))];
+
+            //Filter buttons
+            categories.forEach(cat => {
+                const btn = document.createElement("button");
+                btn.textContent = cat;
+                btn.className = "filter-btn" + (cat === "All" ? " filter-btn-active" : "");
+                btn.addEventListener("click", () => {
+                    document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("filter-btn-active"));
+                    btn.classList.add("filter-btn-active");
+                    renderCards(cat);
+                });
+                filterBar.appendChild(btn);
+            });
+
+            function renderCards(filter) {
+                const list = filter === "All" ? MODS : MODS.filter(m => m.category === filter);
+                grid.innerHTML = "";
+                list.forEach(mod => {
+                    grid.innerHTML += `
+                    <div class="box">
+                        <a href="mod.html?id=${encodeURIComponent(mod.id)}">
+                            <div class="mod-card">
+                                <img src="${mod.images ? mod.images[0] : mod.image}" alt="${mod.title}">
+                                <h3 class="mod-title">${mod.title}</h3>
+                            </div>
+                        </a>
+                    </div>`;
+                });
+            }
+
+            renderCards("All");
+        </script>
+
+        <footer>
+            <p>
+                ©2026 Leob Mods 
+            </p>
+        </footer>
+    </body>
+</html>

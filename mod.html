@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title></title>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><img src="images/salty.png" id="web_logo" alt="Webpage logo" width="64" height="64"></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="ets2mods.html">ETS2 Mods</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div id="mod-content"></div>
+
+        <script src="mods.js"></script>
+        <script>
+            const id  = new URLSearchParams(window.location.search).get("id");
+            const mod = MODS.find(m => m.id === id);
+            const el  = document.getElementById("mod-content");
+
+            if (!mod) {
+                el.innerHTML = `<p style="padding:20px;color:lightgrey;"><a href="index.html">← Back</a> — Mod not found.</p>`;
+            } else {
+                document.title = mod.title;
+
+                const images = mod.images || [mod.image];
+                const downloads = mod.downloads || [{ label: "Download v" + mod.version, url: mod.downloadUrl, changelog: "" }];
+
+                const thumbsHtml = images.length > 1
+                    ? `<div class="mod-thumbs">
+                        ${images.map((src, i) => `<img src="${src}" class="mod-thumb${i === 0 ? ' mod-thumb-active' : ''}" data-index="${i}" alt="Screenshot ${i+1}">`).join("")}
+                       </div>`
+                    : "";
+
+                //selects the first version and only show that
+                const newestDownload = `<a href="${downloads[0].url}" class="mod-detail-download" target="_blank">${downloads[0].label}</a>`;
+
+                // Changelog: every version with its own download button
+                const changelogHtml = downloads.map(d =>
+                    `<div class="changelog-entry">
+                        <div class="changelog-entry-header">
+                            <div class="changelog-entry-body">${d.changelog || "<p>No changelog provided.</p>"}</div>
+                            <a href="${d.url}" class="mod-detail-download changelog-download" target="_blank">${d.label}</a>
+                        </div>
+                    </div>`
+                ).join("<hr class='changelog-divider'>");
+
+                const authorHtml = mod.author
+                    ? `<p class="mod-detail-author">By ${mod.author}</p>`
+                    : "";
+
+                el.innerHTML = `
+                <div class="mod-detail">
+                    <a href="ets2mods.html" class="mod-detail-back">← Return</a>
+
+                    <div class="mod-detail-top">
+                        <div class="mod-detail-images">
+                            <img src="${images[0]}" alt="${mod.title}" class="mod-detail-hero" id="mod-main-img">
+                            ${thumbsHtml}
+                        </div>
+                        <div class="mod-detail-sidebar">
+                            <h1 class="mod-title" style="text-align:left;">${mod.title}</h1>
+                            ${authorHtml}
+                            <p class="mod-detail-meta">${mod.category} &nbsp;|&nbsp; ${mod.etsCompat}</p>
+                            <div class="mod-detail-downloads">${newestDownload}</div>
+                        </div>
+                    </div>
+
+                    <div class="mod-tabs">
+                        <button class="mod-tab mod-tab-active" data-tab="description">Description</button>
+                        <button class="mod-tab" data-tab="changelog">Changelog</button>
+                    </div>
+
+                    <div class="mod-tab-content" id="tab-description">
+                        <div class="mod-detail-desc">${mod.description}</div>
+                    </div>
+
+                    <div class="mod-tab-content" id="tab-changelog" style="display:none;">
+                        <div class="mod-changelog">${changelogHtml}</div>
+                    </div>
+                </div>`;
+
+                // Image switcher
+                document.querySelectorAll(".mod-thumb").forEach(thumb => {
+                    thumb.addEventListener("click", () => {
+                        document.getElementById("mod-main-img").src = images[thumb.dataset.index];
+                        document.querySelectorAll(".mod-thumb").forEach(t => t.classList.remove("mod-thumb-active"));
+                        thumb.classList.add("mod-thumb-active");
+                    });
+                });
+
+                // Tab switcher
+                document.querySelectorAll(".mod-tab").forEach(tab => {
+                    tab.addEventListener("click", () => {
+                        document.querySelectorAll(".mod-tab").forEach(t => t.classList.remove("mod-tab-active"));
+                        document.querySelectorAll(".mod-tab-content").forEach(c => c.style.display = "none");
+                        tab.classList.add("mod-tab-active");
+                        document.getElementById("tab-" + tab.dataset.tab).style.display = "block";
+                    });
+                });
+            }
+        </script>
+        <footer>
+            <p>
+                ©2026 Leob Mods 
+            </p>
+        </footer>
+    </body>
+</html>
