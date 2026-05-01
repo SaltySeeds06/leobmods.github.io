@@ -51,7 +51,7 @@
                 list.forEach(mod => {
                     grid.innerHTML += `
                     <div class="box">
-                        <a href="mod.html?id=${encodeURIComponent(mod.id)}">
+                        <a href="./mod?id=${encodeURIComponent(mod.id)}">
                             <div class="mod-card">
                                 <img src="${mod.images ? mod.images[0] : mod.image}" alt="${mod.title}">
                                 <h3 class="mod-title">${mod.title}</h3>
