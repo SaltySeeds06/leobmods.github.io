@@ -427,3 +427,35 @@ footer ul li a {
 #search-input::placeholder {
     color: #999;
 }
+
+#corner-image {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    cursor: pointer;
+}
+
+#corner-image:hover {
+    transform: scale(1.05);
+    filter: drop-shadow(0 8px 16px rgba(0,0,0,0.5));
+}
+
+/* ── Mod thumbnail version badge ── */
+.mod-thumb-wrapper {
+    position: relative;
+}
+ 
+.mod-compat-badge {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    background-color: rgba(0, 0, 0, 0.65);
+    color: lightgrey;
+    font-family: "Poppins";
+    font-size: 14px;
+    padding: 2px 6px;
+    border: 1px solid #555;
+    pointer-events: none;
+}

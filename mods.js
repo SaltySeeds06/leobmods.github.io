@@ -192,7 +192,7 @@ and fixes many issues that EAA had when being combined with other maps -
                <p>Beyond Files</p>
                <p>TGS Files</p><br>
                <p>Note: This RC is made entirely from scratch and is not based on any existing RC's</p>`,
-    etsCompat: "1.58.1",
+    etsCompat: "1.58",
     downloads: [
       {
         label: "Download v1.58.1",

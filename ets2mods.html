@@ -69,7 +69,10 @@
                     <div class="box">
                         <a href="./mod?id=${encodeURIComponent(mod.id)}">
                             <div class="mod-card">
-                                <img src="${mod.images ? mod.images[0] : mod.image}" alt="${mod.title}">
+                                <div class="mod-thumb-wrapper">
+                                    <img src="${mod.images ? mod.images[0] : mod.image}" alt="${mod.title}">
+                                    ${mod.etsCompat ? `<span class="mod-compat-badge">${mod.etsCompat}</span>` : ""}
+                                </div>
                                 <h3 class="mod-title">${mod.title}</h3>
                             </div>
                         </a>
@@ -86,5 +89,6 @@
                 <li><a href="./privacy">Privacy Policy</a></li>
             </ul>
         </footer>
+        <a href="https://soramods.pl/"><img src="images/sora2.png" id="corner-image" alt="Corner decoration" width="250" height="250"></a>
     </body>
 </html>
