@@ -169,8 +169,13 @@ and fixes many issues that EAA had when being combined with other maps -
  Please note that several parts of Brazil have not been moved due to the
  amount of time it would take and how difficult it would be to move, the
  rest may be added in future versions</p><p><br></p><p>Load order </p><p>EAA Rescaled</p><p>EAA Map Semeuropa</p><p>EAA Base</p><p>EAA Base Share</p><p>If you're using this is in a map combo put EAA at the very bottom of your load order</p><p><br></p><p>Please report any bugs as you find them</p>`,
-    etsCompat: "1.58",
+    etsCompat: "1.59",
     downloads: [
+      {
+        label: "Download v2.6",
+        url: "https://modsfire.com/h4Hib7i44Avji2a/",
+        changelog: "<p><strong>v2.5.1 for 1.58</strong></p><ul><li>Fixed missing city</li></ul>"
+      },
       {
         label: "Download v2.5.1",
         url: "https://modsfire.com/M94v4e38TEBC8iV/",
