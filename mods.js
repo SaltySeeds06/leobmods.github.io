@@ -173,8 +173,8 @@ and fixes many issues that EAA had when being combined with other maps -
     downloads: [
       {
         label: "Download v2.6",
-        url: "https://modsfire.com/h4Hib7i44Avji2a/",
-        changelog: "<p><strong>v2.5.1 for 1.58</strong></p><ul><li>Fixed missing city</li></ul>"
+        url: "https://modsfire.com/",
+        changelog: "<p><strong>v2.5.1 for 1.58</strong></p><ul><li>Updated to 1.59</li></ul>"
       },
       {
         label: "Download v2.5.1",
