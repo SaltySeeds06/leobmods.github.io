@@ -259,5 +259,22 @@ and fixes many issues that EAA had when being combined with other maps -
     ],
   },
 
+  {
+    id: "riw-maghreb-rc",
+    title: "RIW PM Maghreb RC",
+    category: "Fixes & RCs",
+    author: "saltyleob",
+    images: ["images/riw-maghreb-rc/01.png"],
+    description: `<p>Load order:</p><p>RIW PM Maghreb RC</p><p>PM Maghreb Files</p><p>RIW Files</p>`,
+    etsCompat: "1.59",
+    downloads: [
+      {
+        label: "Download v1.59",
+        url: "https://modsfire.com/DM8KqQ1B19St718/",
+        changelog: "<p><strong>v1.59</strong></p><ul><li>Initial Release</li></ul>"
+      },
+    ],
+  },
+
 ];
 
