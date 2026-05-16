@@ -172,6 +172,11 @@ and fixes many issues that EAA had when being combined with other maps -
     etsCompat: "1.59",
     downloads: [
       {
+        label: "Download v2.7",
+        url: "https://modsfire.com/17EImz3unr3527S/",
+        changelog: "<p><strong>v2.7 for 1.59</strong></p><p>Fixed bugs</p>"
+      },
+      {
         label: "Download v2.6",
         url: "https://modsfire.com/TFl9799DW4cl5dZ/",
         changelog: "<p><strong>v2.6 for 1.59</strong></p><ul><li>Updated to 1.59</li></ul>"
