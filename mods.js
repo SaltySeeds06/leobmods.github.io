@@ -315,5 +315,22 @@ and fixes many issues that EAA had when being combined with other maps -
     ],
   },
 
+  {
+    id: "cnx-pm-eu-rm",
+    title: "ProMods RusMap Connector",
+    category: "Fixes & RCs",
+    author: "leob",
+    images: ["images/cnx-pm-eu-rm/01.png"],
+    description: `<p>Load order:</p><p>ProMods RusMap Connector</p><p>RusMap Files</p><p>ProMods files</p>`,
+    etsCompat: "1.59",
+    downloads: [
+      {
+        label: "Download v1.59",
+        url: "https://mods.to/1MIw6a09fb40629d7/",
+        changelog: "<p><strong>v1.59</strong></p><ul><li>Initial Release</li></ul>"
+      },
+    ],
+  },
+
 ];
 
