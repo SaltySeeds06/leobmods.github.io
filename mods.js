@@ -265,6 +265,40 @@ and fixes many issues that EAA had when being combined with other maps -
   },
 
   {
+    id: "trans-siberian-truckway-altai-map-rc",
+    title: "Trans-Siberian Truckway - Altai Map RC",
+    category: "Fixes & RCs",
+    author: "kwigdulah, ВЛАДЕЛЕЦ ДРУГ",
+    images: ["images/trans-siberian-truckway/01.png"],
+    description: `<p>Load order- place above both maps</p>`,
+    etsCompat: "1.59",
+    downloads: [
+      {
+        label: "Download v3.2",
+        url: "https://mods.to/iOE16a09f4b8220d2/",
+        changelog: "<p><strong>v3.2</strong></p><ul><li>Updated to 1.59</li></ul>"
+      },
+    ],
+  },
+
+  {
+    id: "trans-siberian-truckway-off-the-grid-rc",
+    title: "Trans-Siberian Truckway - Off the Grid RC",
+    category: "Fixes & RCs",
+    author: "kwigdulah, ВЛАДЕЛЕЦ ДРУГ",
+    images: ["images/trans-siberian-truckway/01.png"],
+    description: `<p>Load order- place above both maps</p>`,
+    etsCompat: "1.59",
+    downloads: [
+      {
+        label: "Download v3.2",
+        url: "https://mods.to/FRlt6a09f4dc27b9a/",
+        changelog: "<p><strong>v3.2</strong></p><ul><li>Updated to 1.59</li></ul>"
+      },
+    ],
+  },
+
+  {
     id: "riw-maghreb-rc",
     title: "RIW PM Maghreb RC",
     category: "Fixes & RCs",
