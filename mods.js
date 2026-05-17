@@ -9,6 +9,11 @@ const MODS = [
     etsCompat: "All Game Versions",
     downloads: [
       {
+        label: "Download v2.8",
+        url: "https://mods.to/RiYu6a0a0c655c3ae/",
+        changelog: "<p><strong>v2.8</strong></p><ul><li>Updated for Benelux rework</li><li>Made some other changes too</li></ul>"
+      },
+      {
         label: "Download v2.7",
         url: "https://modsfire.com/MnIGYS848oCsCIx/",
         changelog: "<p><strong>v2.7</strong></p><ul><li>Made many fixes and changes, too many to list here and I have forgot most of them anyway</li><li>Big thanks to MERAS for the comprehensive list of suggestions and improvements to the background map!</li></ul>"
@@ -47,6 +52,11 @@ Promods background</p><p>Full credit to BenganJ (rest in peace) who's knowlege o
     etsCompat: "All Game Versions",
     downloads: [
       {
+        label: "Download v2.8",
+        url: "https://mods.to/NROe6a0a0ce7a2699/",
+        changelog: "<p><strong>v2.8</strong></p><ul><li>Updated for Benelux rework</li><li>Made some other changes too</li></ul>"
+      },
+      {
         label: "Download v2.7",
         url: "https://modsfire.com/L44OywT3nxOnBN0/",
         changelog: "<p><strong>v2.7</strong></p><ul><li>Made many fixes and changes, too many to list here and I have forgot most of them anyway</li><li>Big thanks to MERAS for the comprehensive list of suggestions and improvements to the background map!</li></ul>"
@@ -76,6 +86,11 @@ World's Combined background, Melphiz, and to DOWL for creating the
 Promods background</p><p>Full credit to BenganJ (rest in peace) who's knowlege of background generation/creation was used extensively for this mod</p>`,
     etsCompat: "All Game Versions",
     downloads: [
+      {
+        label: "Download v2.8",
+        url: "https://mods.to/ABzJ6a0a0cd924eb0/",
+        changelog: "<p><strong>v2.8</strong></p><ul><li>Updated for Benelux rework</li><li>Made some other changes too</li></ul>"
+      },
       {
         label: "Download v2.7",
         url: "https://modsfire.com/8YSLo7O15t1nc81/",
@@ -111,6 +126,11 @@ World's Combined background, Melphiz, and to DOWL for creating the
 Promods background</p><p>Full credit to BenganJ (rest in peace) who's knowlege of background generation/creation was used extensively for this mod</p>`,
     etsCompat: "All Game Versions",
     downloads: [
+      {
+        label: "Download v2.8",
+        url: "https://mods.to/IqkI6a0a0cb56aea0/",
+        changelog: "<p><strong>v2.8</strong></p><ul><li>Updated for Benelux rework</li><li>Made some other changes too</li></ul>"
+      },
       {
         label: "Download v2.7",
         url: "https://modsfire.com/33UsYH310gEMIOG/",
@@ -150,6 +170,11 @@ World's Combined background, Melphiz, and to DOWL for creating the
 Promods background</p><p>Full credit to BenganJ (rest in peace) who's knowlege of background generation/creation was used extensively for this mod</p>`,
     etsCompat: "All Game Versions",
     downloads: [
+      {
+        label: "Download v2.8",
+        url: "https://mods.to/6sff6a0a0cf4375e6/",
+        changelog: "<p><strong>v2.8</strong></p><ul><li>Updated for Benelux rework</li><li>Made some other changes too</li></ul>"
+      },
       {
         label: "Download v2.7",
         url: "https://modsfire.com/C89z2oHw53LevOO/",
