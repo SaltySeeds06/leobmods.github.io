@@ -198,7 +198,7 @@ and fixes many issues that EAA had when being combined with other maps -
     downloads: [
       {
         label: "Download v2.7",
-        url: "https://modsfire.com/17EImz3unr3527S/",
+        url: "https://mods.to/c7VS6a0a99f15559f/",
         changelog: "<p><strong>v2.7 for 1.59</strong></p><p>Fixed bugs</p>"
       },
       {
