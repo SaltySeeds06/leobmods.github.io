@@ -333,6 +333,11 @@ and fixes many issues that EAA had when being combined with other maps -
     etsCompat: "1.59",
     downloads: [
       {
+        label: "Download v1.59.1",
+        url: "https://mods.to/JCiz6a1b4dce49e2a/",
+        changelog: "<p><strong>v1.59</strong></p><ul><li>Fixed bugs</li></ul>"
+      },
+      {
         label: "Download v1.59",
         url: "https://modsfire.com/DM8KqQ1B19St718/",
         changelog: "<p><strong>v1.59</strong></p><ul><li>Initial Release</li></ul>"
