@@ -194,8 +194,13 @@ and fixes many issues that EAA had when being combined with other maps -
  Please note that several parts of Brazil have not been moved due to the
  amount of time it would take and how difficult it would be to move, the
  rest may be added in future versions</p><p><br></p><p>Load order </p><p>EAA Rescaled</p><p>EAA Map Semeuropa</p><p>EAA Base</p><p>EAA Base Share</p><p>If you're using this is in a map combo put EAA at the very bottom of your load order</p><p><br></p><p>Please report any bugs as you find them</p>`,
-    etsCompat: "1.59",
+    etsCompat: "1.60",
     downloads: [
+      {
+        label: "Download v2.8",
+        url: "https://modsfire.com/95c04dw4B6g7CKy",
+        changelog: "<p><strong>v2.8 for 1.60</strong></p><p>Updated to 1.60</p>"
+      },
       {
         label: "Download v2.7",
         url: "https://mods.to/c7VS6a0a99f15559f/",
@@ -330,8 +335,13 @@ and fixes many issues that EAA had when being combined with other maps -
     author: "saltyleob",
     images: ["images/riw-maghreb-rc/01.png"],
     description: `<p>Load order:</p><p>RIW PM Maghreb RC</p><p>PM Maghreb Files</p><p>RIW Files</p>`,
-    etsCompat: "1.59",
+    etsCompat: "1.60",
     downloads: [
+      {
+        label: "Download v1.60",
+        url: "https://modsfire.com/G8Kx5a6CDWtEP05/",
+        changelog: "<p><strong>v1.60</strong></p><ul><li>Updated to 1.60</li></ul>"
+      },
       {
         label: "Download v1.59.1",
         url: "https://mods.to/JCiz6a1b4dce49e2a/",
