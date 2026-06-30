@@ -367,7 +367,7 @@ and fixes many issues that EAA had when being combined with other maps -
       {
         label: "Download v1.60",
         url: "https://modsfire.com/K68tK16p51gc60D/",
-        changelog: "<p><strong>v1.59</strong></p><ul><li>Updated to 1.60</li></ul>"
+        changelog: "<p><strong>v1.60</strong></p><ul><li>Updated to 1.60</li></ul>"
       },
       {
         label: "Download v1.59",
@@ -376,6 +376,23 @@ and fixes many issues that EAA had when being combined with other maps -
       },
     ],
   },
+
+  {
+    id: "euroadnet-promods-fix",
+    title: "EuRoadNet ProMods Fix",
+    category: "Fixes & RCs",
+    author: "Vern37",
+    images: ["images/euroadnet-promods-fix/01.png"],
+    description: `<p>Load order:</p><p>EuRoadNet ProMods Fix</p><p>ProMods Files</p><p>EuRoadNet</p>`,
+    etsCompat: "1.60",
+    downloads: [
+      {
+        label: "Download v1.60",
+        url: "https://modsfire.com/7H0wiI5R10YN3Rc/",
+        changelog: "<p><strong>v1.60</strong></p><ul><li>Updated to 1.60</li></ul>"
+      }
+    ],
+  }
 
 ];
 
