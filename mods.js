@@ -199,7 +199,7 @@ and fixes many issues that EAA had when being combined with other maps -
       {
         label: "Download v2.9",
         url: "https://modsfire.com/77ud1jGyaTVJ1w4",
-        changelog: "<p><strong>v2.9 for 1.60</strong></p><p>Fixed bugs</p><p>Added more localisation (Credit to xiguawangzi, developer of SEA map for making them)</p>"
+        changelog: "<p><strong>v2.9 for 1.60</strong></p><p>Fixed bugs</p><p>Added more localisation (Credit to Xiguawangzi3399, developer of SEA map for making them)</p>"
       },
       {
         label: "Download v2.8",
