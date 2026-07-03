@@ -345,7 +345,7 @@ and fixes many issues that EAA had when being combined with other maps -
       {
         label: "Download v1.60.1",
         url: "https://modsfire.com/G8Kx5a6CDWtEP05/",
-        changelog: "<p><strong>v1.60</strong></p><ul><li>Fixed missing Casablanca</li></ul>"
+        changelog: "<p><strong>v1.60.1</strong></p><ul><li>Fixed missing Casablanca</li></ul>"
       },
       {
         label: "Download v1.60",
@@ -355,7 +355,7 @@ and fixes many issues that EAA had when being combined with other maps -
       {
         label: "Download v1.59.1",
         url: "https://mods.to/JCiz6a1b4dce49e2a/",
-        changelog: "<p><strong>v1.59</strong></p><ul><li>Fixed bugs</li></ul>"
+        changelog: "<p><strong>v1.59.1</strong></p><ul><li>Fixed bugs</li></ul>"
       },
       {
         label: "Download v1.59",
