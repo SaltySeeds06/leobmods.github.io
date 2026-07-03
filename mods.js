@@ -343,6 +343,11 @@ and fixes many issues that EAA had when being combined with other maps -
     etsCompat: "1.60",
     downloads: [
       {
+        label: "Download v1.60.1",
+        url: "https://modsfire.com/G8Kx5a6CDWtEP05/",
+        changelog: "<p><strong>v1.60</strong></p><ul><li>Fixed missing Casablanca</li></ul>"
+      },
+      {
         label: "Download v1.60",
         url: "https://modsfire.com/G8Kx5a6CDWtEP05/",
         changelog: "<p><strong>v1.60</strong></p><ul><li>Updated to 1.60</li></ul>"
