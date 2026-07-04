@@ -344,7 +344,7 @@ and fixes many issues that EAA had when being combined with other maps -
     downloads: [
       {
         label: "Download v1.60.1",
-        url: "https://modsfire.com/G8Kx5a6CDWtEP05/",
+        url: "https://modsfire.com/w9tQKuPIyw6n8lJ/",
         changelog: "<p><strong>v1.60.1</strong></p><ul><li>Fixed missing Casablanca</li></ul>"
       },
       {
