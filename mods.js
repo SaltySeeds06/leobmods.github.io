@@ -272,8 +272,13 @@ and fixes many issues that EAA had when being combined with other maps -
     author: "kwigdulah, ВЛАДЕЛЕЦ ДРУГ",
     images: ["images/trans-siberian-truckway/01.png", "images/trans-siberian-truckway/02.png", "images/trans-siberian-truckway/03.png", "images/trans-siberian-truckway/04.png", "images/trans-siberian-truckway/05.png", "images/trans-siberian-truckway/06.png", "images/trans-siberian-truckway/07.png", "images/trans-siberian-truckway/08.png", "images/trans-siberian-truckway/09.png"],
     description: `Map of Russia (Siberia and the Far East) from Omsk Oblast to Vladivostok through Lake Baikal, Amur river and the Sakha republic.&nbsp;<br>More than 6000 km of roads. nearly 60 cities, however most are made with haste and most don’t look like real ones.&nbsp;<br>The map will be rebuilt city by city and road by road, the largest of these being Novosibirsk, along with sections in Amur Oblast and Yakutia<br>There are several connections to different maps including:<br><br>SibirMap - Free and Paid<br>﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿Off the Grid<br>Altai Map (requires a separate RC since Altai 1.7)<br>Beyond Map (Road to Asia)<br>Truck Dream Road (Map of China)<br>Far East Russia<br>Amur Map<br><br><br>The map is designed to be used as a connector until new maps are released. If you are a creator and can make any of these regions better, do so, you are able to build on our sectors, and you will initially have a road with the rest of Russia. No more isolated territories!<br>Requirements - ALL MAP DLCS ARE REQUIRED<br>Load order: place above other maps with connectors at the top.<br><br><br>Credits:<br><br>kwigdulah (Kalachinsk to Khabarovsk)<br>Владелец Друг (Khabarovsk to Tonghua)<br>Tavlov_KZ (def files and testing)<br>hi sora (general assistance)<br>Владимир Моисеев for permission to adapt his Novosibirsk Map to 1:19 Scale!<br>Boberowsky and UniMaps for permssion to integrate Belt of the Tundra<br>manulpallascat for permission to integrate Wakkanai Map`,    
-    etsCompat: "1.59",
+    etsCompat: "1.60",
     downloads: [
+      {
+        label: "Download v3.3",
+        url: "https://mods.to/nLPN6a4aaf16ba8d0/",
+        changelog: "<p><strong>3.2</strong></p><ul><li>Fixed bugs</li><li>Updated to 1.60</li></ul>"
+      },
       {
         label: "Download v3.2",
         url: "https://mods.to/0BUq69fcbcf22237f/",
@@ -289,8 +294,13 @@ and fixes many issues that EAA had when being combined with other maps -
     author: "kwigdulah, ВЛАДЕЛЕЦ ДРУГ",
     images: ["images/trans-siberian-truckway/01.png"],
     description: `<p>Load order- place above both maps</p>`,
-    etsCompat: "1.59",
+    etsCompat: "1.60",
     downloads: [
+      {
+        label: "Download v3.3",
+        url: "https://mods.to/luzr6a4ab036e3e34/",
+        changelog: "<p><strong>v3.3</strong></p><ul><li>Updated to 1.60</li></ul>"
+      },
       {
         label: "Download v3.2",
         url: "https://mods.to/UTHx69fcbdb05e815/",
@@ -306,8 +316,13 @@ and fixes many issues that EAA had when being combined with other maps -
     author: "kwigdulah, ВЛАДЕЛЕЦ ДРУГ",
     images: ["images/trans-siberian-truckway/01.png"],
     description: `<p>Load order- place above both maps</p>`,
-    etsCompat: "1.59",
+    etsCompat: "1.60",
     downloads: [
+      {
+        label: "Download v3.3",
+        url: "https://mods.to/H6s36a4ab06149b2e/",
+        changelog: "<p><strong>v3.3</strong></p><ul><li>Updated to 1.60</li></ul>"
+      },
       {
         label: "Download v3.2",
         url: "https://mods.to/iOE16a09f4b8220d2/",
@@ -323,12 +338,34 @@ and fixes many issues that EAA had when being combined with other maps -
     author: "kwigdulah, ВЛАДЕЛЕЦ ДРУГ",
     images: ["images/trans-siberian-truckway/01.png"],
     description: `<p>Load order- place above both maps</p>`,
-    etsCompat: "1.59",
+    etsCompat: "1.60",
     downloads: [
+      {
+        label: "Download v3.3",
+        url: "https://mods.to/kUXf6a4ab081c4f0b/",
+        changelog: "<p><strong>v3.3</strong></p><ul><li>Updated to 1.60</li></ul>"
+      },
       {
         label: "Download v3.2",
         url: "https://mods.to/FRlt6a09f4dc27b9a/",
         changelog: "<p><strong>v3.2</strong></p><ul><li>Updated to 1.59</li></ul>"
+      },
+    ],
+  },
+
+  {
+    id: "trans-siberian-truckway-beyond-rc",
+    title: "Trans-Siberian Truckway - Beyond RC",
+    category: "Fixes & RCs",
+    author: "kwigdulah, ВЛАДЕЛЕЦ ДРУГ",
+    images: ["images/trans-siberian-truckway/01.png"],
+    description: `<p>Load order- place above both maps</p>`,
+    etsCompat: "1.60",
+    downloads: [
+      {
+        label: "Download v3.3",
+        url: "https://mods.to/P4vP6a4ab0a343654/",
+        changelog: "<p><strong>v3.3</strong></p><ul><li>Updated to 1.60</li></ul>"
       },
     ],
   },
