@@ -435,7 +435,7 @@ and fixes many issues that EAA had when being combined with other maps -
     downloads: [
       {
         label: "Download v1.60",
-        url: "https://modsfire.com/7H0wiI5R10YN3Rc/",
+        url: "https://modsfire.com/o6z9h5Sz35cZI0L/",
         changelog: "<p><strong>v1.60</strong></p><ul><li>Updated to 1.60</li></ul>"
       }
     ],
