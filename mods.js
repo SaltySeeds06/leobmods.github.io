@@ -275,9 +275,14 @@ and fixes many issues that EAA had when being combined with other maps -
     etsCompat: "1.60",
     downloads: [
       {
+        label: "Download v3.4",
+        url: "https://mods.to/7vpB6a6f6c889f964/",
+        changelog: "<p><strong>3.4</strong></p><ul><li>Fixed bugs</li><li>Removed areas conflicting with SibirMap</li></ul>"
+      },
+      {
         label: "Download v3.3",
         url: "https://mods.to/nLPN6a4aaf16ba8d0/",
-        changelog: "<p><strong>3.2</strong></p><ul><li>Fixed bugs</li><li>Updated to 1.60</li></ul>"
+        changelog: "<p><strong>3.3</strong></p><ul><li>Fixed bugs</li><li>Updated to 1.60</li></ul>"
       },
       {
         label: "Download v3.2",
@@ -296,6 +301,11 @@ and fixes many issues that EAA had when being combined with other maps -
     description: `<p>Load order- place above both maps</p>`,
     etsCompat: "1.60",
     downloads: [
+      {
+        label: "Download v3.4",
+        url: "https://mods.to/J4mR6a6f6d080c76e/",
+        changelog: "<p><strong>v3.4</strong></p><ul><li>Updated for new SibirMap version</li></ul>"
+      },
       {
         label: "Download v3.3",
         url: "https://mods.to/luzr6a4ab036e3e34/",
