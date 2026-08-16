@@ -392,7 +392,7 @@ and fixes many issues that EAA had when being combined with other maps -
       {
         label: "Download v3.4",
         url: "https://mods.to/PQrD6a810dae55af8/",
-        changelog: "<p><strong>v3.3</strong></p><ul><li>Updated to 1.60</li></ul>"
+        changelog: "<p><strong>v3.4</strong></p><ul><li>Updated to 1.60</li></ul>"
       },
     ],
   },
