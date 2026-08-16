@@ -386,7 +386,7 @@ and fixes many issues that EAA had when being combined with other maps -
     category: "Fixes & RCs",
     author: "kwigdulah, ВЛАДЕЛЕЦ ДРУГ",
     images: ["images/trans-siberian-truckway/01.png"],
-    description: `<p>Load order- place above both maps</p>`,
+    description: `<p>Load order:</p><p>TST Amur RC</p><p>Amur Map</p><p>Trans-Siberian Truckway</p>`,
     etsCompat: "1.60",
     downloads: [
       {
