@@ -194,8 +194,13 @@ and fixes many issues that EAA had when being combined with other maps -
  Please note that several parts of Brazil have not been moved due to the
  amount of time it would take and how difficult it would be to move, the
  rest may be added in future versions</p><p><br></p><p>Load order </p><p>EAA Rescaled</p><p>EAA Map Semeuropa</p><p>EAA Base</p><p>EAA Base Share</p><p>If you're using this is in a map combo put EAA at the very bottom of your load order</p><p><br></p><p>Please report any bugs as you find them</p>`,
-    etsCompat: "1.60",
+    etsCompat: "1.61",
     downloads: [
+      {
+        label: "Download v3.0",
+        url: "https://mods.to/TEQC6ab2c08460f08",
+        changelog: "<p><strong>v3.0 for 1.61</strong></p><p>Fixed bugs</p><p>Updated to 1.61</p>"
+      },
       {
         label: "Download v2.9",
         url: "https://modsfire.com/77ud1jGyaTVJ1w4",
@@ -454,7 +459,25 @@ and fixes many issues that EAA had when being combined with other maps -
         changelog: "<p><strong>v1.60</strong></p><ul><li>Updated to 1.60</li></ul>"
       }
     ],
+  },
+
+  {
+    id: "panamerica-eaa-rescaled-rc",
+    title: "Panamerica - EAA Rescaled RC",
+    category: "Fixes & RCs",
+    author: "leob",
+    images: ["images/panamerica-eaa-rescaled-rc/01.png"],
+    description: `<p>Load order:</p><p>Panamerica Map EAA RC</p><p>Panamerica Map</p><p>EAA Rescaled</p><p>EAA Files</p>`,
+    etsCompat: "1.61",
+    downloads: [
+      {
+        label: "Download v1.61",
+        url: "https://mods.to/xIH16ab2c041612ac/",
+        changelog: "<p><strong>v1.61</strong></p><ul><li>Initial Release</li></ul>"
+      }
+    ],
   }
+
 
 ];
 
