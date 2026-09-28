@@ -483,7 +483,7 @@ and fixes many issues that EAA had when being combined with other maps -
       {
         label: "Download v1.61.1",
         url: "https://mods.to/GDOG6aba5a3c6eaf6/",
-        changelog: "<p><strong>v1.61</strong></p><ul><li>Initial Release</li></ul>"
+        changelog: "<p><strong>v1.61</strong></p><ul><li>Updated for new Panamerica version</li></ul>"
       },
       {
         label: "Download v1.61",
