@@ -197,6 +197,11 @@ and fixes many issues that EAA had when being combined with other maps -
     etsCompat: "1.61",
     downloads: [
       {
+        label: "Download v3.0.1",
+        url: "https://mods.to/3htg6aba59dbd5d0b",
+        changelog: "<p><strong>v3.0.1 for 1.61</strong></p><p>Fixed bugs</p>"
+      },
+      {
         label: "Download v3.0",
         url: "https://mods.to/TEQC6ab2c08460f08",
         changelog: "<p><strong>v3.0 for 1.61</strong></p><p>Fixed bugs</p><p>Updated to 1.61</p>"
@@ -475,6 +480,11 @@ and fixes many issues that EAA had when being combined with other maps -
     description: `<p>Load order:</p><p>Panamerica Map EAA RC</p><p>Panamerica Map</p><p>EAA Rescaled</p><p>EAA Files</p>`,
     etsCompat: "1.61",
     downloads: [
+      {
+        label: "Download v1.61.1",
+        url: "https://mods.to/GDOG6aba5a3c6eaf6/",
+        changelog: "<p><strong>v1.61</strong></p><ul><li>Initial Release</li></ul>"
+      },
       {
         label: "Download v1.61",
         url: "https://mods.to/xIH16ab2c041612ac/",
