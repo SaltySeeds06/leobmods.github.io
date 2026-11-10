@@ -9,6 +9,11 @@ const MODS = [
     etsCompat: "All Game Versions",
     downloads: [
       {
+        label: "Download v2.9",
+        url: "https://mods.to/IWTD6af37ecc9479d/",
+        changelog: "<p><strong>v2.9</strong></p><ul><li>Updated for Iceland DLC</li><li>Made several other adjustments for other map mods</li><li>Set the mod to an option mod in the manifest for convoys</li></ul>"
+      },
+      {
         label: "Download v2.8",
         url: "https://mods.to/RiYu6a0a0c655c3ae/",
         changelog: "<p><strong>v2.8</strong></p><ul><li>Updated for Benelux rework</li><li>Made some other changes too</li></ul>"
@@ -52,6 +57,11 @@ Promods background</p><p>Full credit to BenganJ (rest in peace) who's knowlege o
     etsCompat: "All Game Versions",
     downloads: [
       {
+        label: "Download v2.9",
+        url: "https://mods.to/jP766af37eb3f1c8a/",
+        changelog: "<p><strong>v2.9</strong></p><ul><li>Updated for Iceland DLC</li><li>Made several other adjustments for other map mods</li><li>Set the mod to an option mod in the manifest for convoys</li></ul>"
+      },
+      {
         label: "Download v2.8",
         url: "https://mods.to/NROe6a0a0ce7a2699/",
         changelog: "<p><strong>v2.8</strong></p><ul><li>Updated for Benelux rework</li><li>Made some other changes too</li></ul>"
@@ -86,6 +96,11 @@ World's Combined background, Melphiz, and to DOWL for creating the
 Promods background</p><p>Full credit to BenganJ (rest in peace) who's knowlege of background generation/creation was used extensively for this mod</p>`,
     etsCompat: "All Game Versions",
     downloads: [
+      {
+        label: "Download v2.9",
+        url: "https://mods.to/DPEW6af37e993b7a0/",
+        changelog: "<p><strong>v2.9</strong></p><ul><li>Updated for Iceland DLC</li><li>Made several other adjustments for other map mods</li><li>Set the mod to an option mod in the manifest for convoys</li></ul>"
+      },
       {
         label: "Download v2.8",
         url: "https://mods.to/ABzJ6a0a0cd924eb0/",
@@ -126,6 +141,11 @@ World's Combined background, Melphiz, and to DOWL for creating the
 Promods background</p><p>Full credit to BenganJ (rest in peace) who's knowlege of background generation/creation was used extensively for this mod</p>`,
     etsCompat: "All Game Versions",
     downloads: [
+      {
+        label: "Download v2.9",
+        url: "https://mods.to/d5Kt6af37e853d48c/",
+        changelog: "<p><strong>v2.9</strong></p><ul><li>Updated for Iceland DLC</li><li>Made several other adjustments for other map mods</li><li>Set the mod to an option mod in the manifest for convoys</li></ul>"
+      },
       {
         label: "Download v2.8",
         url: "https://mods.to/IqkI6a0a0cb56aea0/",
@@ -171,6 +191,11 @@ Promods background</p><p>Full credit to BenganJ (rest in peace) who's knowlege o
     etsCompat: "All Game Versions",
     downloads: [
       {
+        label: "Download v2.9",
+        url: "https://mods.to/8hLF6af37e6ec320f/",
+        changelog: "<p><strong>v2.9</strong></p><ul><li>Updated for Iceland DLC</li><li>Made several other adjustments for other map mods</li><li>Set the mod to an option mod in the manifest for convoys</li></ul>"
+      },
+      {
         label: "Download v2.8",
         url: "https://mods.to/6sff6a0a0cf4375e6/",
         changelog: "<p><strong>v2.8</strong></p><ul><li>Updated for Benelux rework</li><li>Made some other changes too</li></ul>"
@@ -179,6 +204,44 @@ Promods background</p><p>Full credit to BenganJ (rest in peace) who's knowlege o
         label: "Download v2.7",
         url: "https://modsfire.com/C89z2oHw53LevOO/",
         changelog: "<p><strong>v2.7</strong></p><ul><li>Made many fixes and changes, too many to list here and I have forgot most of them anyway</li><li>Big thanks to MERAS for the comprehensive list of suggestions and improvements to the background map!</li></ul>"
+      },
+    ],
+  },
+
+  {
+    id: "ets2-global-background-map-country-colours",
+    title: "ETS2 Global Background Map - Country Colours",
+    category: "UI",
+    author: "SaltySeeds06",
+    images: ["images/ets2-global-background-map-country-colours/00.png", "images/ets2-global-background-map-country-colours/01.png", "images/ets2-global-background-map-country-colours/03.png"],
+    description: `<p><strong>General Information:</strong></p><p>This background map has 
+full coverage of nearly the entire world including fictional maps such 
+as Grand Utopia, Dreamland Map and fictionally positioned FSG and PJ 
+Indo</p><p>It also adds the same territories as my other backgrounds 
+adding all of Africa Europe and Asia along with Australia + New Zealand 
+and North America with a small part of northern South America, 
+(including Colombia Venezuela, Guyana, Suriname, French Guiana, Peru, 
+Ecuador, Bolivia, Paraguay, nearly all of Brazil and parts of Argentina 
+and Chile)</p><p>If you have any suggestions or notice any errors, write a comment!</p><p><br></p><p><strong>Notes for Map Modders:</strong></p><p>The
+ majority of the map is based on the Lambert Conic Conformal projection 
+(North America, Asia and Africa above the equator, excluding the 
+mediterranean coast, all follow it exactly) with major adjustments to 
+Europe. Antarctica is entirely fictional</p><p>Australia is based on the
+ same projection however it has been shrunk and moved left due to the 
+Island of Tasmania being beyond the 32 bit limit that the game's 
+coordinate system can support.</p><p>South America is based on a custom projection since LCC would make it too large to practically use.</p><p><br></p><p><strong>Credits</strong></p><p>Software used: paint.net and QGIS</p><p>During
+ the background map's development it was based on the AllWorld 
+background by Freeman with the borders and outlines of countries have 
+been completely redone from scratch. Full credit to him, and GMC 
+Community for maintaing his background, along with the author of the 
+World's Combined background, Melphiz, and to DOWL for creating the 
+Promods background</p><p>Full credit to BenganJ (rest in peace) who's knowlege of background generation/creation was used extensively for this mod</p>`,
+    etsCompat: "All Game Versions",
+    downloads: [
+      {
+        label: "Download v2.9",
+        url: "https://mods.to/n8fa6af37d79983ca/",
+        changelog: "<p><strong>v2.9</strong></p><ul><li>Updated for Iceland DLC</li><li>Made several other adjustments for other map mods</li><li>Set the mod to an option mod in the manifest for convoys</li></ul>"
       },
     ],
   },
