@@ -3,11 +3,16 @@ const MODS = [
     id: "ets2-global-background-map",
     title: "ETS2 Global Background Map",
     category: "UI",
-    author: "SaltySeeds06",
+    author: "saltyleob",
     images: ["images/ets2-global-background-map/00.png", "images/ets2-global-background-map/01.png", "images/ets2-global-background-map/02.png", "images/ets2-global-background-map/03.png", "images/ets2-global-background-map/04.png"],
     description: `<p><strong>General Information:</strong></p><p>This background map has full coverage of nearly the entire world</p><p>It adds all of Africa Europe and Asia along with Australia + New Zealand, North America and South America.</p><p>If you have any suggestions or notice any errors, write a comment!</p><p><br></p><p><strong>Notes for Map Modders:</strong></p><p>The majority of the map is based on the Lambert Conic Conformal projection (North America, Asia and Africa above the equator, excluding the mediterranean coast, all follow it exactly) with major adjustments to Europe. Antarctica is entirely fictional</p><p>Australia is based on the same projection however it has been shrunk and moved left due to the Island of Tasmania being beyond the limit that the game's coordinate system can support.</p><p>South America is based on a custom projection since LCC would make it too large to practically use.</p><p><br></p><p><strong>Credits</strong></p><p>Software used: paint.net and QGIS</p><p>During the background map's development it was based on the AllWorld background by Freeman with the borders and outlines of countries have been completely redone from scratch. Full credit to him, and GMC Community for maintaing his background, along with the author of the World's Combined background, Melphiz, and to DOWL for creating the Promods background</p><p>Full credit to BenganJ (rest in peace) who's knowlege of background generation/creation was used extensively for this mod</p>`,
     etsCompat: "All Game Versions",
     downloads: [
+      {
+        label: "Download v2.9.1",
+        url: "https://mods.to/LvWJ6afa2bcf9eeaa/",
+        changelog: "<p><strong>v2.9.1</strong></p><ul><li>Updated to fix issues with missing bus stop icons when using coaches</li></ul>"
+      },
       {
         label: "Download v2.9",
         url: "https://mods.to/IWTD6af37ecc9479d/",
@@ -30,7 +35,7 @@ const MODS = [
     id: "ets2-global-background-map-grand-utopia",
     title: "ETS2 Global Background Map - Grand Utopia+",
     category: "UI",
-    author: "SaltySeeds06",
+    author: "saltyleob",
     images: ["images/ets2-global-background-map-grand-utopia/00.png", "images/ets2-global-background-map-grand-utopia/01.png","images/ets2-global-background-map/01.png", "images/ets2-global-background-map-grand-utopia/02.png", "images/ets2-global-background-map-grand-utopia/03.png", "images/ets2-global-background-map-grand-utopia/04.png"],
     description: `<p><strong>General Information:</strong></p><p>This background map has 
 full coverage of nearly the entire world including fictional maps such 
@@ -57,6 +62,11 @@ Promods background</p><p>Full credit to BenganJ (rest in peace) who's knowlege o
     etsCompat: "All Game Versions",
     downloads: [
       {
+        label: "Download v2.9.1",
+        url: "https://mods.to/whUz6afa2be11cf08/",
+        changelog: "<p><strong>v2.9.1</strong></p><ul><li>Updated to fix issues with missing bus stop icons when using coaches</li></ul>"
+      },
+      {
         label: "Download v2.9",
         url: "https://mods.to/jP766af37eb3f1c8a/",
         changelog: "<p><strong>v2.9</strong></p><ul><li>Updated for Iceland DLC</li><li>Made several other adjustments for other map mods</li><li>Set the mod to an option mod in the manifest for convoys</li></ul>"
@@ -78,7 +88,7 @@ Promods background</p><p>Full credit to BenganJ (rest in peace) who's knowlege o
     id: "ets2-global-background-map-dark-version",
     title: "ETS2 Global Background Map - Dark Version",
     category: "UI",
-    author: "SaltySeeds06",
+    author: "saltyleob",
     images: ["images/ets2-global-background-map-dark/01.png", "images/ets2-global-background-map-dark/02.png", "images/ets2-global-background-map-dark/03.png", "images/ets2-global-background-map-dark/04.png", "images/ets2-global-background-map-dark/05.png", "images/ets2-global-background-map-dark/06.png"],
     description: `<p><strong>General Information:</strong></p><p>This background map has full coverage of nearly the entire world</p><p>It adds all of Africa Europe and Asia along with Australia + New Zealand, North America and South America.</p><p>If you have any suggestions or notice any errors, write a comment!</p><p><br></p><p><strong>Notes for Map Modders:</strong></p><p>The
  majority of the map is based on the Lambert Conic Conformal projection 
@@ -96,6 +106,11 @@ World's Combined background, Melphiz, and to DOWL for creating the
 Promods background</p><p>Full credit to BenganJ (rest in peace) who's knowlege of background generation/creation was used extensively for this mod</p>`,
     etsCompat: "All Game Versions",
     downloads: [
+      {
+        label: "Download v2.9.1",
+        url: "https://mods.to/4I3w6afa2bf4170d6/",
+        changelog: "<p><strong>v2.9.1</strong></p><ul><li>Updated to fix issues with missing bus stop icons when using coaches</li></ul>"
+      },
       {
         label: "Download v2.9",
         url: "https://mods.to/DPEW6af37e993b7a0/",
@@ -118,7 +133,7 @@ Promods background</p><p>Full credit to BenganJ (rest in peace) who's knowlege o
     id: "ets2-global-background-map-dark-grand-utopia",
     title: "ETS2 Global Background Map - Dark Grand Utopia+",
     category: "UI",
-    author: "SaltySeeds06",
+    author: "saltyleob",
     images: ["images/ets2-global-background-map-dark-grand-utopia/01.png", "images/ets2-global-background-map-dark-grand-utopia/02.png", "images/ets2-global-background-map-dark-grand-utopia/03.png", "images/ets2-global-background-map-dark-grand-utopia/04.png"],
     description: `<p><strong>General Information:</strong></p><p>This background map has 
 full coverage of nearly the entire world including fictional maps such 
@@ -142,6 +157,11 @@ Promods background</p><p>Full credit to BenganJ (rest in peace) who's knowlege o
     etsCompat: "All Game Versions",
     downloads: [
       {
+        label: "Download v2.9.1",
+        url: "https://mods.to/p4G16afa2c0b3683f/",
+        changelog: "<p><strong>v2.9.1</strong></p><ul><li>Updated to fix issues with missing bus stop icons when using coaches</li></ul>"
+      },
+      {
         label: "Download v2.9",
         url: "https://mods.to/d5Kt6af37e853d48c/",
         changelog: "<p><strong>v2.9</strong></p><ul><li>Updated for Iceland DLC</li><li>Made several other adjustments for other map mods</li><li>Set the mod to an option mod in the manifest for convoys</li></ul>"
@@ -164,7 +184,7 @@ Promods background</p><p>Full credit to BenganJ (rest in peace) who's knowlege o
     id: "ets2-global-background-map-scs-style",
     title: "ETS2 Global Background Map - SCS Style",
     category: "UI",
-    author: "SaltySeeds06",
+    author: "saltyleob",
     images: ["images/ets2-global-background-map-scs-style/01.png", "images/ets2-global-background-map-scs-style/02.png", "images/ets2-global-background-map-scs-style/03.png"],
     description: `<p><strong>General Information:</strong></p><p>This background map has 
 full coverage of nearly the entire world including fictional maps such 
@@ -191,6 +211,11 @@ Promods background</p><p>Full credit to BenganJ (rest in peace) who's knowlege o
     etsCompat: "All Game Versions",
     downloads: [
       {
+        label: "Download v2.9.1",
+        url: "https://mods.to/f1RO6afa2c1ec2878/",
+        changelog: "<p><strong>v2.9.1</strong></p><ul><li>Updated to fix issues with missing bus stop icons when using coaches</li></ul>"
+      },
+      {
         label: "Download v2.9",
         url: "https://mods.to/8hLF6af37e6ec320f/",
         changelog: "<p><strong>v2.9</strong></p><ul><li>Updated for Iceland DLC</li><li>Made several other adjustments for other map mods</li><li>Set the mod to an option mod in the manifest for convoys</li></ul>"
@@ -212,7 +237,7 @@ Promods background</p><p>Full credit to BenganJ (rest in peace) who's knowlege o
     id: "ets2-global-background-map-country-colours",
     title: "ETS2 Global Background Map - Country Colours",
     category: "UI",
-    author: "SaltySeeds06",
+    author: "saltyleob",
     images: ["images/ets2-global-background-map-country-colours/00.png", "images/ets2-global-background-map-country-colours/01.png", "images/ets2-global-background-map-country-colours/03.png"],
     description: `<p><strong>General Information:</strong></p><p>This background map has 
 full coverage of nearly the entire world including fictional maps such 
@@ -239,6 +264,11 @@ Promods background</p><p>Full credit to BenganJ (rest in peace) who's knowlege o
     etsCompat: "All Game Versions",
     downloads: [
       {
+        label: "Download v2.9.1",
+        url: "https://mods.to/GBaJ6afa2c2f3fb5a/",
+        changelog: "<p><strong>v2.9.1</strong></p><ul><li>Updated to fix issues with missing bus stop icons when using coaches</li></ul>"
+      },
+      {
         label: "Download v2.9",
         url: "https://mods.to/n8fa6af37d79983ca/",
         changelog: "<p><strong>v2.9</strong></p><ul><li>Updated for Iceland DLC</li><li>Made several other adjustments for other map mods</li><li>Set the mod to an option mod in the manifest for convoys</li></ul>"
@@ -250,7 +280,7 @@ Promods background</p><p>Full credit to BenganJ (rest in peace) who's knowlege o
     id: "eaa-rescaled",
     title: "EAA Rescaled",
     category: "Fixes & RCs",
-    author: "SaltySeeds06",
+    author: "saltyleob",
     images: ["images/eaa_rescaled/01.png", "images/eaa_rescaled/02.png"],
     description: `<p>This mod rescales and moves EAA to the right spot on the background 
 and fixes many issues that EAA had when being combined with other maps -
