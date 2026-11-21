@@ -290,6 +290,11 @@ and fixes many issues that EAA had when being combined with other maps -
     etsCompat: "1.62",
     downloads: [
       {
+        label: "Download v3.3",
+        url: "https://mods.to/FKiX6b02167abaac4",
+        changelog: "<p><strong>v3.3 for 1.62</strong></p><p>Rescaled more of EAA Brazil, special thanks and credit to Simón Mercosur!, and integrated and merged Heart of Brazil (former EAA Rescaled Addon)</p>"
+      },
+      {
         label: "Download v3.2",
         url: "https://mods.to/UhfV6afb45a801c1c",
         changelog: "<p><strong>v3.2 for 1.62</strong></p><p>Fixed crash on startup related to coaches and added bus stop across the entire map</p>"
