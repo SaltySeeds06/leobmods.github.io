@@ -292,7 +292,7 @@ and fixes many issues that EAA had when being combined with other maps -
       {
         label: "Download v3.3a",
         url: "https://mods.to/xt7F6b02224333e35",
-        changelog: "<p><strong>v3.3 for 1.62</strong></p><p>Rescaled more of EAA Brazil, special thanks and credit to Simón Mercosur!, and integrated and merged Heart of Brazil (former EAA Rescaled Addon)</p>"
+        changelog: "<p><strong>v3.3a for 1.62</strong></p><p>Rescaled more of EAA Brazil, special thanks and credit to Simón Mercosur!, and integrated and merged Heart of Brazil (former EAA Rescaled Addon)</p>"
       },
       {
         label: "Download v3.2",
