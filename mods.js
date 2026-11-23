@@ -470,8 +470,8 @@ and fixes many issues that EAA had when being combined with other maps -
   },
 
   {
-    id: "trans-siberian-truckway-off-the-grid-rc",
-    title: "Trans-Siberian Truckway - Off the Grid RC",
+    id: "trans-siberian-truckway-project-russia-rc",
+    title: "Trans-Siberian Truckway - Project Russia RC",
     category: "Fixes & RCs",
     author: "kwigdulah, ВЛАДЕЛЕЦ ДРУГ",
     images: ["images/trans-siberian-truckway/01.png"],

@@ -24,6 +24,19 @@
 
         <script src="mods.js"></script>
         <script>
+            
+            const MOD_REDIRECTS = {
+                "trans-siberian-truckway-off-the-grid-rc": "trans-siberian-truckway-project-russia-rc"
+            };
+
+            const params = new URLSearchParams(window.location.search);
+            const rawId  = params.get("id");
+
+            if (rawId && MOD_REDIRECTS[rawId]) {
+                params.set("id", MOD_REDIRECTS[rawId]);
+                window.location.replace(`${window.location.pathname}?${params.toString()}${window.location.hash}`);
+            }
+
             const id  = new URLSearchParams(window.location.search).get("id");
             const mod = MODS.find(m => m.id === id);
             const el  = document.getElementById("mod-content");
