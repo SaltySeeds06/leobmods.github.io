@@ -557,8 +557,13 @@ and fixes many issues that EAA had when being combined with other maps -
     author: "saltyleob",
     images: ["images/riw-maghreb-rc/01.png"],
     description: `<p>Load order:</p><p>RIW PM Maghreb RC</p><p>PM Maghreb Files</p><p>RIW Files</p>`,
-    etsCompat: "1.61",
+    etsCompat: "1.62",
     downloads: [
+      {
+        label: "Download v1.62",
+        url: "https://mods.to/kGRf6b0ae5476e84c/",
+        changelog: "<p><strong>v1.62</strong></p><ul><li>Updated to 1.62</li></ul>"
+      },
       {
         label: "Download v1.61",
         url: "https://mods.to/qZqz6ab4172a62f6a/",
